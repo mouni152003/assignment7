@@ -1,0 +1,53 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    background-color: aliceblue;
+    width: 340px;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.box-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+h3{
+    color: blue;
+}
+.horizontal{
+    background-color: bisque;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card-profile{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+.profile-img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-profile-info{
+    margin-left: 1rem;
+}
+.profile-name{
+    font-size: 1rem;
+}
+.profile-followers{
+    color: cadetblue;
+    font-size: 0.9rem;
+}
